@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+body{
+    font-family: 'Press Start 2P', cursive;
+    margin: 0%;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    line-height: 2em;
+    font-size: 16px;
+}
+
+header{
+    padding-top: 2em;
+    margin-bottom: 2em;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    font-size: 2em;
+    text-align: center;
+}
+
+li{
+    padding: 2em;
+}
