@@ -2,7 +2,22 @@ const api = "https://pokeapi.co/api/v2/pokemon?limit=50&offset=0"
 const main = document.querySelector("main")
 const ul = document.querySelector("ul")
 
-fetch(api)
+async function getapi(url) {
+    const response = await fetch(url)
+
+    const data = await response.json()
+    const pokemons = data
+    console.log(pokemons)
+}
+
+getapi(api)
+
+pokemons.forEach(pokemon)
+
+
+
+
+/*fetch(api)
     .then((response) => {
         return response.json();
     })
@@ -29,7 +44,7 @@ fetch(api)
         console.log(error);
     })
 
-/*for (var i = 0; i < 50; i++) {
+for (var i = 0; i < 50; i++) {
     const li = document.createElement("li")
     li.classList.add("pokemon-listing")
     const figure = document.createElement("figure")
