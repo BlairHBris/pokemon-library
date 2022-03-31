@@ -17,6 +17,7 @@ header{
     padding-left: 1.5em;
     padding-right: 1.5em;
     margin-bottom: 2em;
+    line-height: 4em;
     text-align: center;
 }
 
@@ -52,13 +53,14 @@ a{
 }
 
 figcaption > a{
-    border: 2px solid black;
-    padding: 5px;
+    padding: .5em;
+    font-size: 2em;
 }
 
 figcaption > a:hover{
     background-color: rgb(202, 14, 202);
     color: white;
+    border: 2px solid black;
 }
 
 img{
