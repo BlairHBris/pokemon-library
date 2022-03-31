@@ -2,6 +2,7 @@ const pokemon = document.querySelector("#pokemon")
 const spinner = document.querySelector(".spinner")
 const pokemonDetails = document.querySelector("#pokemon-details")
 const ul = document.querySelector("ul")
+const main = document.querySelector("main")
 
 function addPokemon(pokemon) {
     const div = document.createElement("div")
@@ -23,8 +24,12 @@ function addAbilities(pokemon) {
     <span class="ability-short-description">${pokemon.effect_entries[1].short_effect}</span>
     `
     ul.append(li)
-
 }
+
+const backButton = document.createElement("div")
+backButton.classList.add("back-button")
+backButton.innerHTML = "Back to List"
+main.append(backButton)
 
 const url = new URL(window.location)
 const queryString = new URLSearchParams(url.search)
