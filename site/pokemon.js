@@ -1,6 +1,6 @@
 const pokemon = document.querySelector("#pokemon")
 const spinner = document.querySelector(".spinner")
-const ul = document.querySelector("ul")
+const pokemonDetails = document.querySelector("#pokemon-details")
 
 function addPokemon(pokemon) {
     const div = document.createElement("div")
@@ -10,7 +10,7 @@ function addPokemon(pokemon) {
     <figcaption><a href="pokemon.html?pokemon=${pokemon.name}">${pokemon.name}</a></figcaption>
     </figure>
     `
-    pokemonlisting.append(div)
+    pokemonDetails.append(div)
 }
 
 const url = new URL(window.location)

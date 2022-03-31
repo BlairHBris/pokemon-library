@@ -1,6 +1,6 @@
 const api = "https://pokeapi.co/api/v2/pokemon/?limit=50&offset=62"
 const spinner = document.querySelector(".spinner")
-const pokemonlisting = document.querySelector("#pokemon-listing")
+const pokemonListing = document.querySelector("#pokemon-listing")
 
 
 function addPokemon(pokemon) {
@@ -11,7 +11,7 @@ function addPokemon(pokemon) {
     <figcaption><a href="pokemon.html?pokemon=${pokemon.name}">${pokemon.name}</a></figcaption>
     </figure>
     `
-    pokemonlisting.append(div)
+    pokemonListing.append(div)
 }
 
 fetch(api)
