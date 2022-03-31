@@ -31,4 +31,37 @@ h2{
 
 li{
     padding: 1.5em;
+    text-align: center;
+}
+
+.spinner{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    align-items: center;
+    height: 10em;
+}
+
+.hidden{
+    display: none;
+}
+
+a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+}
+
+figcaption > a{
+    border: 2px solid black;
+    padding: 5px;
+}
+
+figcaption > a:hover{
+    background-color: rgb(202, 14, 202);
+    color: white;
+}
+
+img{
+    height: 15em;
+    width: 15em;
 }
