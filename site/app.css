@@ -10,6 +10,13 @@ body{
     align-items: center;
     line-height: 2em;
     font-size: 16px;
+    background: url(pokemonbg.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    
 }
 
 header{
@@ -66,4 +73,12 @@ figcaption > a:hover{
 img{
     height: 15em;
     width: 15em;
+}
+
+li{
+    text-transform: capitalize;
+}
+
+.ability-short-description{
+    padding-left: 4em;
 }
