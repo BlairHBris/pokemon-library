@@ -26,9 +26,9 @@ function addAbilities(pokemon) {
     ul.append(li)
 }
 
-const backButton = document.createElement("div")
+const backButton = document.createElement("table")
 backButton.classList.add("back-button")
-backButton.innerHTML = "Back to List"
+backButton.innerHTML = `<a href="index.html">Back to List</a>`
 main.append(backButton)
 
 const url = new URL(window.location)

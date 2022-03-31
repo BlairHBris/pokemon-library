@@ -63,8 +63,7 @@ figcaption > a{
 }
 
 figcaption > a:hover{
-    background-color: rgb(202, 14, 202);
-    color: white;
+    background-color: rgb(190, 233, 236);
     border: 2px solid black;
 }
 
@@ -73,10 +72,28 @@ img{
     width: 15em;
 }
 
+ul{
+    display: inline-block;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
 li{
     text-transform: capitalize;
 }
 
 .ability-short-description{
-    padding-left: 4em;
+    margin-left: 4em;
+}
+
+.back-button{
+    margin-top: 2em;
+    font-size: 1.5em; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.back-button:hover{
+    background-color: rgb(190, 233, 236);
+    border: 2px solid black;
 }
