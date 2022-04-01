@@ -38,6 +38,10 @@ h2{
 div{
     padding: 1.5em;
     text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 75em;
+    justify-content: space-evenly;
 }
 
 .spinner{
