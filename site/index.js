@@ -22,6 +22,7 @@ fetch(api)
         const fetches = urls.map(url => fetch(url).then(response => response.json()))
         return Promise.all(fetches)
     }).then(responses => {
+        console.log(responses)
         spinner.classList.add("hidden")
         responses.forEach(response => {
             addPokemon(response)
